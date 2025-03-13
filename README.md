@@ -29,9 +29,11 @@ Untuk mengetahui ekstensi tersebut telah aktif atau belum, kita bisa mengetahui 
 Lalu kalian bisa mencari ekstensi yang kalian butuhkan, jika ada yang belum diaktivasi kalian dapat mengaktifkan ekstensi tersebut, melalu XAMPP Control Panel, pada bagian Apache
 klik Config -> PHP.ini :
 
-![alt text](img/ekstensi2.png)
+![ekstensi2](https://github.com/user-attachments/assets/e7a56da5-13aa-4e00-aff6-75a4a198eb35)
 
-![alt text](img/intl.png)
+
+![intl](https://github.com/user-attachments/assets/5537ffbf-8756-48b9-96c2-12d292d33834)
+
 * Contohnya disini extension=intl belum aktif, maka cara mengaktivasinya adalah dengan menghilangkan tanda ; (titik koma) pada ekstensi yang akan diaktifkan. Kemudian simpan kembali filenya dan restart Apache web server.
 
 ## Instalasi Codeigniter 4
@@ -70,7 +72,8 @@ Secara default fitur ini belum aktif. Ketika terjadi error pada aplikasi akan di
 Semua jenis error akan ditampilkan sama. Untuk memudahkan mengetahui jenis errornya,
 maka perlu diaktifkan mode debugging dengan mengubah nilai konfigurasi pada environment
 variable CI_ENVIRONMENT menjadi development.
-![alt text](img/development.png)
+![development](https://github.com/user-attachments/assets/d9aa492a-c21c-4d1c-90c2-e4c21f77dfbf)
+
 
 Ubah nama file env menjadi .env kemudian buka file tersebut dan ubah nilai variable
 CI_ENVIRONMENT menjadi development.
