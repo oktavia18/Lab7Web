@@ -79,7 +79,8 @@ Ubah nama file env menjadi .env kemudian buka file tersebut dan ubah nilai varia
 CI_ENVIRONMENT menjadi development.
 #### Catatan : Kadang, CodeIgniter tidak membaca file .env karena masih dikomentari, pastikan tidak ada tanda # di depan CI_ENVIRONMENT.
 
-![alt text](img/error.png)
+![error](https://github.com/user-attachments/assets/945781be-bc61-4a85-8ffb-358456b543b9)
+
 
 Contoh error yang terjadi. Untuk mencoba error tersebut, ubah kode pada file
 app/Controller/Home.php hilangkan titik koma pada akhir kode return view('welcome_message').
