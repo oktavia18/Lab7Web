@@ -32,7 +32,8 @@ klik Config -> PHP.ini :
 ![ekstensi2](https://github.com/user-attachments/assets/e7a56da5-13aa-4e00-aff6-75a4a198eb35)
 
 
-![intl](https://github.com/user-attachments/assets/5537ffbf-8756-48b9-96c2-12d292d33834)
+<img width="410" alt="intl xampp" src="https://github.com/user-attachments/assets/6db8c593-f7c3-421d-848b-9d4ecafde4e2" />
+
 
 * Contohnya disini extension=intl belum aktif, maka cara mengaktivasinya adalah dengan menghilangkan tanda ; (titik koma) pada ekstensi yang akan diaktifkan. Kemudian simpan kembali filenya dan restart Apache web server.
 
