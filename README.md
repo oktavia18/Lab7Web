@@ -22,7 +22,8 @@ Berikut beberapa ekstensi yang perlu diaktifkan:
 Untuk mengetahui ekstensi tersebut telah aktif atau belum, kita bisa mengetahui nya melalui powershell atau command prompt dengan cara:
 
 ### Catatan : mulai dari PHP 7.0, ekstensi JSON biasanya sudah termasuk secara bawaan.
-![Screenshot 2025-03-13 125346](https://github.com/user-attachments/assets/0bb012bf-b168-4d85-9b8b-4968ccd9b83d)
+![image](https://github.com/user-attachments/assets/1fab69a8-72e7-449c-8e4d-a73207d1648c)
+
 
 
 Lalu kalian bisa mencari ekstensi yang kalian butuhkan, jika ada yang belum diaktivasi kalian dapat mengaktifkan ekstensi tersebut, melalu XAMPP Control Panel, pada bagian Apache
