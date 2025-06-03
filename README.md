@@ -314,7 +314,8 @@ Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 ## Langkah-Langkah
 
 ### Membuat Database
-![alt text](img/database.png)
+![database (1)](https://github.com/user-attachments/assets/1e77241b-a30f-4d92-b0c7-0dc3ed834e62)
+
 ```sql
 CREATE DATABASE lab_ci4;
 ```
@@ -333,7 +334,8 @@ CREATE TABLE artikel (
 ### Konfigurasi Koneksi Database
 - Gunakan file .env dan atur parameter koneksi database sesuai kebutuhan.
 
-![alt text](img/Konfigurasi.png)
+![Konfigurasi](https://github.com/user-attachments/assets/12d2a509-c320-43e7-a248-6c98cd665a03)
+
 
 ### Membuat Model
 - Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada
@@ -395,7 +397,7 @@ dengan nama index.php.
 <?= $this->include('template/footer'); ?>
 ```
 Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
-![alt text](img/view1.png)
+![view1](https://github.com/user-attachments/assets/3f7a5c8b-3781-49e4-99e4-1cb4012ab016)
 Belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada database agar dapat ditampilkan datanya.
 ```sql
 INSERT INTO artikel (judul, isi, slug) VALUE
@@ -403,7 +405,7 @@ INSERT INTO artikel (judul, isi, slug) VALUE
 ('Artikel kedua', 'Tidak seperti anggapan banyak orang, Lorem Ipsum bukanlah teks-teks yang diacak. Ia berakar dari sebuah naskah sastra latin klasik dari era 45 sebelum masehi, hingga bisa dipastikan usianya telah mencapai lebih dari 2000 tahun.', 'artikel-kedua');
 ```
 Refresh kembali browser, sehingga akan ditampilkan hasilnya.
-![alt text](img/view2.png)
+![view2](https://github.com/user-attachments/assets/ed2765fb-63dc-441a-8dff-9f7a684aa854)
 ### Membuat Tampilan Detail Artikel
 Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada Controller Artikel dengan nama view().
 ```php
@@ -443,7 +445,7 @@ $artikel['judul']; ?>">
 ```php
 $routes->get('/artikel/(:any)', 'Artikel::view/$1');
 ```
-![alt text](img/Artikel2.png)
+![Artikel2](https://github.com/user-attachments/assets/04e75e98-bc3b-4d22-805b-c87ae7ba81fd)
 ### Membuat Menu Admin
 Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().
 ```php
@@ -511,7 +513,7 @@ $routes->group('admin', function($routes) {
 });
 ```
 Akses menu admin dengan url http://localhost:8080/admin/artikel
-![alt text](img/Admin.png)
+![Admin](https://github.com/user-attachments/assets/2d553376-3cea-4244-b181-469223d0561d)
 ### Menambah Data Artikel
 Tambahkan fungsi/method baru pada Controller Artikel dengan nama add().
 ```php
@@ -553,7 +555,7 @@ Kemudian buat view untuk form tambah dengan nama form_add.php
 
 <?= $this->include('template/admin_footer'); ?>
 ```
-![alt text](img/form_add.png)
+![form_add](https://github.com/user-attachments/assets/7d5c5884-bb61-4249-824a-f6cfe8c33333)
 ### Mengubah Data
 Tambahkan fungsi/method baru pada Controller Artikel dengan nama edit().
 ```php
@@ -598,7 +600,7 @@ Kemudian buat view untuk form tambah dengan nama form_edit.php
 
 <?= $this->include('template/admin_footer'); ?>
 ```
-![alt text](img/form_edit.png)
+![form_edit](https://github.com/user-attachments/assets/358b65ac-487c-407f-b0f0-1d7bb7e6c352)
 ### Menghapus Data
 Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
 ```php
@@ -705,7 +707,7 @@ class ArtikelTerkini extends Cell
 ```sql
 ALTER TABLE artikel ADD COLUMN created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
 ```
-![alt text](img/1.png)
+![1](https://github.com/user-attachments/assets/83b27a4f-138f-4c92-9f6e-8c5a2cfb8e31)
 ### 2. Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
 
 ### 3. Apa manfaat utama dari penggunaan View Layout dalam pengembangan aplikasi?
@@ -729,7 +731,7 @@ View Layout memberikan cara untuk membuat struktur tampilan yang konsisten di se
 ```sql
 ALTER TABLE artikel ADD kategori VARCHAR(50);
 ```
-![alt text](img/2.png)
+![2](https://github.com/user-attachments/assets/c16d6c7b-0127-4e2c-b040-6a7d0601bd4d)
 - Tambahkan parameter kategori di method render:
 ```php
 public function render($kategori = null)
