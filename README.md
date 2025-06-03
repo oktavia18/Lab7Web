@@ -296,7 +296,8 @@ Kemudian ubah file app/Views/about.php seperti berikut.
 ```
 
 Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
-![WhatsApp Image 2025-03-13 at 14 42 05](https://github.com/user-attachments/assets/0ce41f7f-f68f-41a4-bb8c-ef399ea0939c)
+![About3](https://github.com/user-attachments/assets/e15377c7-7ed2-4ef6-80aa-64ed71be46a4)
+
 
 
 # Praktikum 2: Framework Lanjutan (CRUD) - CodeIgniter 4
