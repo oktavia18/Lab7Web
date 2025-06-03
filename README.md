@@ -803,5 +803,6 @@ $routes->get('/kategori/(:segment)', 'Artikel::kategori/$1');
 <?= $this->endSection() ?>
 ```
 ### Screenshot Hasil
-![alt text](img/Olahraga.png)
-![alt text](img/Teknologi.png)
+![Olahraga](https://github.com/user-attachments/assets/52990c6f-4e93-463c-8125-e62f088cfade)
+![Teknologi](https://github.com/user-attachments/assets/16feb797-ae14-4fcd-908d-bc619244ea8a)
+
